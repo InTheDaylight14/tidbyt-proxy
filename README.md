@@ -16,7 +16,7 @@ rest_command:
     method: POST
   tidbyt-image:
     url: http://tidbyt:8080/api/image
-    payload: '{"image": "{{ text }}", "height": "{{ height }}", "width": "{{ width }}"}'
+    payload: '{"image": "{{ image }}", "height": "{{ height }}", "width": "{{ width }}"}'
     method: POST    
 ```
 
